@@ -16,7 +16,6 @@ import { LogMiddleware } from './log/log.middleware';
 import { AuthMiddleware } from './auth/auth.middleware';
 import { APP_GUARD } from '@nestjs/core';
 import { RoleGuard } from './role/role.guard';
-import { PrismaModule } from './prisma/prisma.module';
 
 @Module({
   imports: [

@@ -15,8 +15,9 @@ datasource db {
 
 model User {
   id         Int     @id @default(autoincrement())
-  frist_name String  @db.VarChar(100)
-  las_name   String? @db.VarChar(100)
+  first_name String  @db.VarChar(100)
+  last_name  String? @db.VarChar(100)
+  role       String? @db.VarChar(100)
 
   @@map("users")
 }
