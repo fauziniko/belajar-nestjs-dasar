@@ -5,9 +5,7 @@ import { Connection, createConnection } from './connection/connection';
 import { mailService, MailService } from './mail/mail.service';
 import { UserRepository } from './user-repository/user-repository';
 import { MemberService } from './member/member.service';
-import { MemberService } from './member/member.service';
 import { ConfigService } from '@nestjs/config';
-import { UserRepository } from './user-repository/user-repository';
 
 @Module({
   imports: [],
